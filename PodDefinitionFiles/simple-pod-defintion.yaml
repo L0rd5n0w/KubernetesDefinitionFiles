@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  # fill in with what you want to name your pod
+  name:
+  # labels are more like tags
+  labels:
+    app:
+    tier:
+spec:
+  containers:
+    # you're free to name this what you want too
+    - name:
+      # enter a docker image name below or a custom image that ahs been uploaded by you
+      image: 
+
